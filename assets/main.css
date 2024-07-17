@@ -1,1 +1,35 @@
 @import 'tailwindcss';
+
+P {
+  text-align: center;
+}
+
+P {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.flex-grow {
+  flex: 1;
+}
+
+a:link,
+a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
