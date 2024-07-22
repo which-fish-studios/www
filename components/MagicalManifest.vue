@@ -43,83 +43,41 @@
           Meet the Team
         </h1>
 
-        <div>
-          <figure
-            class="rounded-xl bg-gray-950 p-8 md:flex md:p-0 dark:bg-slate-800"
-          >
-            <div class="space-y-4 pt-6 text-center md:p-8 md:text-left">
-              <blockquote>
-                <p class="text-lg font-medium text-white">
-                  Jeffrey Harmon is one of five founders of Sphere Province
-                  Games, who published their debut game “Mission: Rovee” in the
-                  spring of 2024. He is a recent computer science graduate that
-                  has worked on a few other non-commercial projects such as
-                  HabiTile and STEM Career Game.
-                </p>
-              </blockquote>
-              <figcaption class="font-medium">
-                <div class="text-sky-500 dark:text-sky-400">Jeffrey Harmon</div>
-                <div class="text-slate-700 dark:text-slate-500">Apogon</div>
-              </figcaption>
-            </div>
-          </figure>
-        </div>
-
-        <div>
-          <figure
-            class="rounded-xl bg-gray-950 p-8 md:flex md:p-0 dark:bg-slate-800"
-          >
-            <img
-              class="mx-auto h-24 w-24 rounded-full md:h-auto md:w-48 md:rounded-xl"
-              src="/assets/angler.png"
-              alt=""
-              width="384"
-              height="512"
-            />
-            <div class="space-y-4 pt-6 text-center md:p-8 md:text-left">
-              <blockquote>
-                <p class="text-lg font-medium text-white">
-                  Hunter is a computer science student with a background in a
-                  little bit of everything. He is primarily a developer for
-                  Which Fish Studios. He has worked on a few non-commercial
-                  games such as Snatch N Sniff.
-                </p>
-              </blockquote>
-              <figcaption class="font-medium">
-                <div class="text-sky-500 dark:text-sky-400">Hunter Johns</div>
-                <div class="text-slate-700 dark:text-slate-500">Anglerfish</div>
-              </figcaption>
-            </div>
-          </figure>
-        </div>
-
-        <div>
-          <figure
-            class="rounded-xl bg-gray-950 p-8 md:flex md:p-0 dark:bg-slate-800"
-          >
-            <img
-              class="mx-auto h-24 w-24 rounded-full md:h-auto md:w-48 md:rounded-xl"
-              src="/assets/wahoo.png"
-              alt=""
-              width="384"
-              height="512"
-            />
-            <div class="space-y-4 pt-6 text-center md:p-8 md:text-left">
-              <blockquote>
-                <p class="text-lg font-medium text-white">
-                  Jadi is a computer science student who has published several
-                  non-commercial projects, including HabiTile and several
-                  smaller games on Itch. She also puts together and films all of
-                  Which Fish Studios' Youtube videos.
-                </p>
-              </blockquote>
-              <figcaption class="font-medium">
-                <div class="text-sky-500 dark:text-sky-400">Jadi Miller</div>
-                <div class="text-slate-700 dark:text-slate-500">Wahoo</div>
-              </figcaption>
-            </div>
-          </figure>
-        </div>
+        <TeamProfile
+          :info="{
+            name: 'Jeffrey Harmon',
+            fish: 'Apogon',
+            picture: '/apogon.png',
+          }"
+        >
+          Jeffrey Harmon is one of five founders of Sphere Province Games, who
+          published their debut game “Mission: Rovee” in the spring of 2024. He
+          is a recent computer science graduate that has worked on a few other
+          non-commercial projects such as HabiTile and STEM Career Game.
+        </TeamProfile>
+        <TeamProfile
+          :info="{
+            name: 'Hunter Johns',
+            fish: 'Anglerfish',
+            picture: '/angler.png',
+          }"
+        >
+          Hunter is a computer science student with a background in a little bit
+          of everything. He is primarily a developer for Which Fish Studios. He
+          has worked on a few non-commercial games such as Snatch N Sniff.
+        </TeamProfile>
+        <TeamProfile
+          :info="{
+            name: 'Jadi Miller',
+            fish: 'Wahoo',
+            picture: '/wahoo.png',
+          }"
+        >
+          Jadi is a computer science student who has published several
+          non-commercial projects, including HabiTile and several smaller games
+          on Itch. She also puts together and films all of Which Fish Studios'
+          Youtube videos.
+        </TeamProfile>
       </div>
     </div>
   </div>
