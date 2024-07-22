@@ -6,8 +6,21 @@
       class="flex h-screen flex-col items-center justify-center space-y-4 bg-gray-950 p-8 text-white"
     >
       <h1 class="text-4xl md:text-6xl lg:text-8xl">Which Fish Studios</h1>
-      <a href="https://www.youtube.com/@whichfishstudios">YouTube</a>
-      <a href="https://twitter.com/whichfishgames">X</a>
+
+      <div class="inline-flex">
+        <SocialLink
+          title="Steam"
+          path="https://store.steampowered.com/app/2907590/Magical_Manifest/"
+        ></SocialLink>
+        <SocialLink
+          title="YouTube"
+          path="https://www.youtube.com/@whichfishstudios"
+        ></SocialLink>
+        <SocialLink
+          title="X"
+          path="https://twitter.com/whichfishgames"
+        ></SocialLink>
+      </div>
     </div>
 
     <!-- About Magical Manifest -->
@@ -24,7 +37,7 @@
         Enjoy classic Crazy Eights game play with a deckbuilder twist! Match
         cards by elemental suit or number. Compete with your wizard friends to
         empty your hand the fastest. Win by emptying your hand as quickly as
-        possible, but watch as the losing players get rewarded by changing the
+        possible, but watch as the losing players get rwarded by changing the
         deck to their favor. Change the shared deck as you play! Enchant cards
         to your advantage using runes from the shop. These runes turn normal
         cards into special cards that can skip players, burn cards permanently,
