@@ -19,13 +19,7 @@
       <h2 class="text-2xl md:text-3xl lg:text-4xl">
         Crazy Eights with a Deckbuilder Twist
       </h2>
-      <img
-        class="mx-auto h-24 w-24 rounded-full md:h-auto md:w-48 md:rounded-xl"
-        src="/assets/screenshot_cards.PNG"
-        alt=""
-        width="384"
-        height="512"
-      />
+
       <p style="text-align: center; margin-left: 20px; margin-right: 20px">
         Enjoy classic Crazy Eights game play with a deckbuilder twist! Match
         cards by elemental suit or number. Compete with your wizard friends to
