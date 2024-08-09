@@ -70,7 +70,7 @@
               }"
             >
               Jeffrey Harmon is one of five founders of Sphere Province Games,
-              who published their debut game “Mission: Rovee” in the spring of
+              who published their debut game “Mission Rovee” in the spring of
               2024. He is a recent computer science graduate that has worked on
               a few other non-commercial projects such as HabiTile and STEM
               Career Game.
