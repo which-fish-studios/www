@@ -1,27 +1,28 @@
 <template>
   <div class="flex h-screen flex-col bg-gray-950">
     <!-- Title Section w/ Social Media Links -->
+    <Banner>
+      <div
+        class="flex flex-col items-center justify-center space-y-4 p-8 text-white"
+      >
+        <h1 class="text-4xl md:text-6xl lg:text-8xl">Which Fish Studios</h1>
 
-    <div
-      class="flex h-screen flex-col items-center justify-center space-y-4 bg-gray-950 p-8 text-white"
-    >
-      <h1 class="text-4xl md:text-6xl lg:text-8xl">Which Fish Studios</h1>
-
-      <div class="inline-flex">
-        <SocialLink
-          title="Steam"
-          path="https://store.steampowered.com/app/2907590/Magical_Manifest/"
-        ></SocialLink>
-        <SocialLink
-          title="YouTube"
-          path="https://www.youtube.com/@whichfishstudios"
-        ></SocialLink>
-        <SocialLink
-          title="X"
-          path="https://twitter.com/whichfishgames"
-        ></SocialLink>
+        <div class="inline-flex gap-2">
+          <SocialLink
+            title="Steam"
+            path="https://store.steampowered.com/app/2907590/Magical_Manifest/"
+          ></SocialLink>
+          <SocialLink
+            title="YouTube"
+            path="https://www.youtube.com/@whichfishstudios"
+          ></SocialLink>
+          <SocialLink
+            title="X"
+            path="https://twitter.com/whichfishgames"
+          ></SocialLink>
+        </div>
       </div>
-    </div>
+    </Banner>
 
     <!-- About Magical Manifest -->
 
